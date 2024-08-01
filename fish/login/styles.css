@@ -1,0 +1,166 @@
+*{
+    background-color: #282c34;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	max-width: 400px;
+	padding: 0px 100px;
+	background-color: black;
+	border-radius: 15px;
+    color: white;
+    margin: auto;
+    margin-top: 32px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;     
+}
+.icon {
+    
+    background-color: black;
+    padding: 0px 50px;
+    padding-left: 100px;
+}
+.xmarkk{
+    background-color: black;
+    text-align: left;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.xmarkk button{
+    background-color: black;
+    text-align: left;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+
+
+    
+}
+
+.fa-xmark{
+    font-size: 15px;
+    padding-top: 10px;
+    background-color: black;
+    
+  
+}
+.fa-twitter{
+    font-size: 30px;
+    padding-top: 10px;
+    background-color: black;
+}
+
+h1 {
+    align-self: self-start;
+	margin-bottom: 20px;
+	text-align: left;
+    color: white;
+    background-color: black;
+    margin-left: 50px;
+
+}
+
+.btn-grp1 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 0px 50px;
+
+}
+.btn-grp1 button{
+    border-radius: 20px;
+    padding: 10px 2px;
+    margin-top: 20px;
+    background-color: white;
+    font-weight: bold;
+    cursor:pointer;
+    border-width: 1px;
+    text-align: center;
+
+}
+.btn-grp1 button:hover{
+    background-color: #71767b;
+    transition-duration: .3s;
+
+}
+h2{
+    background-color: black;
+    margin-top: 60px;
+    font-size:medium;
+    text-align: left;
+    margin-left: 50px;
+    padding-bottom: 35px;
+    color: #71767b;
+    font-weight: normal;
+
+}
+h2 a{
+    background-color: black;
+    color: #1a89d4;
+
+}
+h2 a:hover{
+    background-color: black;
+    color: #1a89d4;
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+h3{
+    background-color: black;
+    font-size:small;
+    text-align: left;
+    padding-bottom: 35px;
+    color: #71767b;
+    font-weight: normal;
+
+}
+h3 a{
+    background-color: black;
+    color: #1a89d4;
+    
+
+}
+h3 a:hover{
+    background-color: black;
+    color: #1a89d4;
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+p{
+    background-color: black;
+}
+input[type=text]{
+    align-items: center;
+    width: auto;
+    height: 55px;
+    background-color: black;
+    border-color:#71767b ;
+    font-size: large;
+    border-style:solid;
+    border-radius: 7px;
+    color: white;    
+    margin-top: 20px;
+}
+input[type=text]:focus{
+    border-color:#1a89d4;
+}
+.static-value{
+	position:absolute;
+	left:10px;
+	font-weight:bold;
+	font-size:0.8em;
+	color:#444;
+	top:9px;
+}
+
